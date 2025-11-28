@@ -8,4 +8,4 @@ services:
       - key: DEBUG
         value: "False"
       - key: DATABASE_URL
-        value: "<your database url>"
+        value: "DATABASE_URL=postgresql://shakira:F28le8YT54kk5OKjSct4fnmi6NAYrcS1@dpg-d4jeuk8dl3ps73eedb50-a:5432/pesaprimedb"
