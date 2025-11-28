@@ -16,7 +16,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # Environment variables
 SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['https://pesaprime-end-v4.onrender.com'])
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['pesaprime-end-v4.onrender.com'])
 DATABASES = {'default': env.db('DATABASE_URL')}
 
 # Installed apps
